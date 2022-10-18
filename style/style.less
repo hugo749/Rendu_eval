@@ -9,6 +9,7 @@ html,body {
 @colortext:#354463;
 @policetext: "Komet";
 @backgroundcolorall: #C1F7D5;
+@espaceblock: 0px 25px;
 
 /* Style de la navbar */
 header {
@@ -17,13 +18,13 @@ header {
     align-items: center;
     margin: 0;
     top: 0;
-    height: 100px;
+    height: 140px;
     width: 100vw;
     img{
         height: 63px;
         width: 160px;
-        margin-left: 72px;
-        margin-top: 34px;
+        margin-left: 160px;
+        margin-top: 20px;
     }
     nav{
         margin-right: 160px;
@@ -31,10 +32,11 @@ header {
     nav ul {
         display: flex;
         align-items: center;
+        margin-bottom: 25px;
     }
     nav ul li {
         list-style: none;
-        padding-top: 55px;
+        padding-top: 20px;
     }
     nav ul a {
         font-family: @policetext;
@@ -66,5 +68,77 @@ header {
         border-radius: 25px;
         font-weight: bold;
         font-family: @policetext;
+    }
+}
+
+/* Style de la page acceuil */
+.pageAccueil{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/annie-spratt-135307-unsplash.jpg');
+    .imageDeFond{
+        width: 100%;
+        height: 100%;
+    }
+    /*.conteneur{
+        padding-top: 20px;
+        position: absolute;
+        background-color: black;
+        z-index: 1;
+        height: 30px;
+        width: 30px;
+    }*/
+}
+
+/* Style de la partie verte */
+.carreVert{
+    display: flex;
+    background-color:@backgroundcolorall;
+    .TAction{
+        padding: 5px;
+        height: 30px;
+        width: 160px;
+        background:@colortext;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        font-family: @policetext;
+        font-weight: 300;
+    }
+}
+.conteneur2 {
+    height: 260px;
+    width: 100vw;
+    background-color: #C1F7D5;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    .paragraphe1{
+        padding-left: 150px;
+        padding-right: 25px;
+    } 
+    .paragraphe2{
+        padding: @espaceblock;
+    }
+    .paragraphe3{
+        padding: @espaceblock;
+    }
+    .paragraphe4{
+        padding-left: 25px;
+        padding-right: 150px;
+    }
+    h2{
+        color: @colortext;
+        font-family: @policetext;
+        font-weight: 900;
+    }
+    p{
+        color: @colortext;
+        font-family: @policetext;
+        font-weight: 300;
     }
 }
