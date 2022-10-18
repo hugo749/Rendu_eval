@@ -75,12 +75,34 @@ header .bouton {
 }
 .pageAccueil .conteneur {
   margin-top: 100px;
-  margin-left: 200px;
+  margin-left: 170px;
   position: absolute;
   background-color: #ffffff;
   z-index: 1;
-  height: 400px;
-  width: 500px;
+  height: 38%;
+  width: 32%;
+  padding: 40px;
+}
+.pageAccueil .conteneur h1 {
+  color: #354463;
+  font-size: 45px;
+}
+.pageAccueil .conteneur p {
+  text-decoration: underline;
+}
+.pageAccueil .conteneur .blockDeGauche {
+  float: left;
+}
+.pageAccueil .conteneur .blockDeDroite {
+  margin-left: 70%;
+}
+.pageAccueil .conteneur .blockDeDroite p {
+  text-decoration: none;
+  font-family: "Flood Std";
+  color: white;
+  font-size: 72px;
+  margin-left: 200%;
+  margin-top: -40px;
 }
 .pageAccueil .TAction {
   padding: 5px;
@@ -91,9 +113,10 @@ header .bouton {
   color: #ffffff;
   text-align: center;
   line-height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -20px;
+  position: absolute;
+  margin-left: 210px;
+  margin-top: 80px;
+  z-index: 2;
   font-family: "Komet";
   font-weight: 300;
 }
@@ -196,6 +219,21 @@ h2 {
   margin: 0px 25px;
   padding: 20px;
 }
+.card .bouton {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: #C1F7D5;
+  border-radius: 25px;
+  font-weight: bold;
+  font-family: "Komet";
+}
+.card .bouton a {
+  text-decoration: none;
+  color: #354463;
+}
 .container {
   padding: 2px 16px;
 }
@@ -212,19 +250,4 @@ h4 {
   color: #354463;
   font-weight: 900;
   font-size: 30px;
-}
-.bouton {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  margin-top: 10px;
-  background-color: #C1F7D5;
-  border-radius: 25px;
-  font-weight: bold;
-  font-family: "Komet";
-}
-.bouton a {
-  text-decoration: none;
-  color: #354463;
 }
