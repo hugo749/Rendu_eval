@@ -67,26 +67,41 @@ header .bouton {
 }
 /* Style de la page acceuil */
 .pageAccueil {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-image: url('../images/annie-spratt-135307-unsplash.jpg');
-  /*.conteneur{
-        padding-top: 20px;
-        position: absolute;
-        background-color: black;
-        z-index: 1;
-        height: 30px;
-        width: 30px;
-    }*/
 }
-.pageAccueil .imageDeFond {
-  width: 100%;
-  height: 100%;
+.pageAccueil .conteneur {
+  margin-top: 100px;
+  margin-left: 200px;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 1;
+  height: 400px;
+  width: 500px;
+}
+.pageAccueil .TAction {
+  padding: 5px;
+  height: 30px;
+  width: 160px;
+  background: #354463;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  font-family: "Komet";
+  font-weight: 300;
 }
 /* Style de la partie verte */
 .pageVerte {
   display: flex;
   background-color: #C1F7D5;
+  margin-top: -140px;
 }
 .pageVerte .TAction {
   padding: 5px;

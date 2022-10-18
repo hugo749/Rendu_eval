@@ -73,27 +73,42 @@ header {
 
 /* Style de la page acceuil */
 .pageAccueil{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-image: url('../images/annie-spratt-135307-unsplash.jpg');
-    .imageDeFond{
-        width: 100%;
-        height: 100%;
-    }
-    /*.conteneur{
-        padding-top: 20px;
+    .conteneur{
+        margin-top: 100px;
+        margin-left: 200px;
         position: absolute;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         z-index: 1;
+        height: 400px;
+        width: 500px;
+    }
+    .TAction{
+        padding: 5px;
         height: 30px;
-        width: 30px;
-    }*/
+        width: 160px;
+        background:@colortext;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+        font-family: @policetext;
+        font-weight: 300;
+    }
 }
 
 /* Style de la partie verte */
 .pageVerte{
     display: flex;
     background-color:@backgroundcolorall;
+    margin-top: -140px;
     .TAction{
         padding: 5px;
         height: 30px;
