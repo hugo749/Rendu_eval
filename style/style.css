@@ -251,3 +251,193 @@ h4 {
   font-weight: 900;
   font-size: 30px;
 }
+@media screen and (max-width: 450px) {
+  header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    top: 0;
+    text-align: center;
+    width: 100vw;
+    display: block;
+  }
+  header img {
+    height: 63px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  header nav {
+    margin-right: 160px;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 100vh;
+  }
+  header nav ul li {
+    list-style: none;
+    padding-top: 0px;
+  }
+  header nav ul a {
+    font-family: "Komet";
+    color: #000000;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 10px;
+    font-weight: 400;
+    display: inline-block;
+    opacity: 0.7;
+  }
+  header nav ul a.active {
+    opacity: 1;
+  }
+  header .NandE {
+    margin: 0px 10px;
+  }
+  header .Ostories {
+    margin: 0px 10px;
+  }
+  header .bouton {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 15px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #C1F7D5;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: "Komet";
+  }
+  header ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .pageAccueil {
+    height: 600px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/annie-spratt-135307-unsplash.jpg);
+  }
+  .pageAccueil .TAction {
+    padding: 5px;
+    height: 20px;
+    width: 110px;
+    background: #354463;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 180px;
+    z-index: 2;
+    font-family: "Komet";
+    font-weight: 300;
+  }
+  .pageAccueil .conteneur {
+    margin-top: 200px;
+    margin-left: 0px;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    height: 320px;
+    width: 100%;
+    padding: 10px;
+  }
+  .pageAccueil .conteneur .blockDeDroite {
+    margin-left: -2%;
+  }
+  .pageAccueil .conteneur .blockDeDroite p {
+    text-decoration: none;
+    font-family: "Flood Std";
+    color: white;
+    font-size: 25px;
+    margin-left: 0%;
+    margin-top: -160px;
+  }
+  .pageVerte .TAction {
+    padding: 5px;
+    height: 20px;
+    width: 110px;
+    background: #354463;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 60px;
+    font-family: "Komet";
+    font-weight: 300;
+    z-index: 2;
+  }
+  .conteneur2 {
+    height: 490px;
+    width: 100vw;
+    background-color: #C1F7D5;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+  }
+  .conteneur2 .paragraphe1 {
+    padding: 0px 25px;
+  }
+  .conteneur2 p {
+    color: #354463;
+    font-family: "Komet";
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .callToAction3 {
+    padding: 5px;
+    height: 20px;
+    width: 110px;
+    background: white;
+    text-decoration: none;
+    color: #354463;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 0px;
+    font-family: "Komet";
+    font-weight: 300;
+    margin-top: 40px;
+  }
+  h2 {
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    font-size: 28px;
+    padding: 0px 25px;
+  }
+  .pageBleu {
+    height: 2290px;
+    width: 100vw;
+    background-color: #354463;
+  }
+  .card {
+    width: 80%;
+    height: 570px;
+    background-color: white;
+    margin: 50px 20px;
+    padding: 20px;
+  }
+  .imgTaille {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .partieCards {
+    display: contents;
+    margin-top: 80px;
+    justify-content: center;
+  }
+}
