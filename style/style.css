@@ -1,4 +1,66 @@
-html {
+/* Coller les bordures */
+html,
+body {
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
+}
+/* Création des variables */
+/* Style de la navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  top: 0;
+  height: 100px;
+  width: 100vw;
+}
+header img {
+  height: 63px;
+  width: 160px;
+  margin-left: 72px;
+  margin-top: 34px;
+}
+header nav {
+  margin-right: 160px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+  padding-top: 55px;
+}
+header nav ul a {
+  font-family: "Komet";
+  color: #000000;
+  text-decoration: none;
+  margin-left: 53px;
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  opacity: 0.7;
+}
+header nav ul a.active {
+  opacity: 1;
+}
+header .NandE {
+  margin-left: 114px;
+}
+header .Ostories {
+  margin-left: 129px;
+}
+header .bouton {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 72px;
+  background-color: #C1F7D5;
+  border-radius: 25px;
+  font-weight: bold;
+  font-family: "Komet";
 }
